@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "touhouprojectmod:item/point"
+    "layer0": "touhou-project-mod:item/power"
   }
 }
