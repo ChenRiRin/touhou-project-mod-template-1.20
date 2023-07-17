@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"online.cll.ExampleMod"
+			"online.cll.TouhouProjectMod"
 		],
 		"fabric-datagen": [
-			"online.cll.ExampleModDataGenerator"
+			"online.cll.TouHouProjectModDataGenerator"
 		]
 	},
 	"mixins": [
