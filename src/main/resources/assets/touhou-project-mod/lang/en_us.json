@@ -1,4 +1,6 @@
 {
   "item.touhou-project-mod.point": "point",
-  "item.touhou-project-mod.power": "power"
+  "item.touhou-project-mod.power": "power",
+  
+  "item-group.touhou-project-mod.touhou_project": "Touhou Project"
 }

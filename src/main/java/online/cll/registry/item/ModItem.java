@@ -1,4 +1,4 @@
-package online.cll.item;
+package online.cll.registry.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -20,6 +20,7 @@ public class ModItem {
     public static Item registry(String name, Item item, ItemGroup... itemGroups) {
         // 将物品注册到ITEM注册表中，使用Mod的唯一标识符和物品的注册名作为Identifier
         Registry.register(Registries.ITEM, new Identifier(TouhouProjectMod.MOD_ID, name), item);
+        TouhouProjectMod.LOGGER.debug(name + " Loading...");
 
         // 遍历传入的物品组数组，将物品添加到对应的物品组中
         for (var group : itemGroups)

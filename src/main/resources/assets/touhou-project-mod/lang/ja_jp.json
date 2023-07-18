@@ -1,4 +1,6 @@
 {
   "item.touhou-project-mod.point": "得点",
-  "item.touhou-project-mod.power": "パワーアップ"
+  "item.touhou-project-mod.power": "パワーアップ",
+
+  "item-group.touhou-project-mod.touhou_project": "東方Project"
 }

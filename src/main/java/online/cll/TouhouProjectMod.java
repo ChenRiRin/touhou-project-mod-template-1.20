@@ -1,8 +1,7 @@
 package online.cll;
 
 import net.fabricmc.api.ModInitializer;
-
-import online.cll.item.ModItems;
+import online.cll.registry.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
