@@ -1,6 +1,7 @@
 {
   "item.touhou-project-mod.point": "point",
   "item.touhou-project-mod.power": "power",
-  
-  "item-group.touhou-project-mod.touhou_project": "Touhou Project"
+  "item-group.touhou-project-mod.touhou_project": "Touhou Project",
+  "item.touhou-project-mod.un-owen-was-her-disc": "U.N. Owen Was Her?",
+  "item.touhou-project-mod.un-owen-was-her-disc.desc": "U.N. Owen Was Her?"
 }

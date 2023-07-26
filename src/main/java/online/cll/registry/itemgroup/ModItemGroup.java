@@ -10,14 +10,12 @@ import online.cll.TouhouProjectMod;
 
 public class ModItemGroup {
 
-
-        // 创建一个新的物品组
-        public static ItemGroup getItemGroup(String name, ItemStack icon, Text displayName){
-            var ret =new ItemGroup.Builder(ItemGroup.Row.TOP,2).displayName(displayName).icon(()->icon).build();
-            TouhouProjectMod.LOGGER.debug(name + " Loading...");
-            Registry.register(Registries.ITEM_GROUP, new Identifier(TouhouProjectMod.MOD_ID, name), ret);
-            return ret;
-        }
-
+    // 创建一个新的物品组
+    public static ItemGroup registry(String name, ItemStack icon, Text displayName) {
+        var ret = new ItemGroup.Builder(ItemGroup.Row.TOP, 2).displayName(displayName).icon(() -> icon).build();
+        TouhouProjectMod.LOGGER.debug(name + " Loading...");
+        Registry.register(Registries.ITEM_GROUP, new Identifier(TouhouProjectMod.MOD_ID, name), ret);
+        return ret;
+    }
 
 }

@@ -1,6 +1,7 @@
 {
   "item.touhou-project-mod.point": "得点",
   "item.touhou-project-mod.power": "パワーアップ",
-
-  "item-group.touhou-project-mod.touhou_project": "東方Project"
+  "item-group.touhou-project-mod.touhou_project": "東方Project",
+  "item.touhou-project-mod.un-owen-was-her-disc": "U.N.オーエンは彼女なのか？",
+  "item.touhou-project-mod.un-owen-was-her-disc.desc": "U.N.オーエンは彼女なのか？"
 }

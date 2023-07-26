@@ -8,8 +8,8 @@ public class ModBlocks {
     public static final Block unname = ModBlock.registry(
             "unname",
             new Block(FabricBlockSettings.create().strength(4f).requiresTool()
-            ), ModItemGroups.touhou_project);
+            ), ModItemGroups.INSTANCE.getTOUHOU_PROJECT());
 
-    public static void registry(){
+    public static void registry() {
     }
 }

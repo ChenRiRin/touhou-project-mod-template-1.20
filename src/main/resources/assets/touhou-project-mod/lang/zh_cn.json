@@ -1,6 +1,7 @@
 {
   "item.touhou-project-mod.point": "点数",
   "item.touhou-project-mod.power": "火力",
-
-  "item-group.touhou-project-mod.touhou_project": "东方Project"
+  "item-group.touhou-project-mod.touhou_project": "东方Project",
+  "item.touhou-project-mod.un-owen-was-her-disc": "U.N.OWEN就是她吗？",
+  "item.touhou-project-mod.un-owen-was-her-disc.desc": "U.N.OWEN就是她吗？"
 }
